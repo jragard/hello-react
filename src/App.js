@@ -20,7 +20,7 @@ import './App.css';
 
 function Text(props) {
   return (
-    <span style ={{color: props.color}}>{props.value}</span>
+    <span style ={{color: props.color}}>{props.children}</span>
   );
 }
 
@@ -37,7 +37,9 @@ function App () {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <h1>Hi, I'm <Text color="blue" value="Ryan" /></h1>
+        {/* <h1>Hi, I'm <Text color="blue" value="Ryan" /></h1> */}
+
+        <h1>Hi, I'm <Text color="blue">Ryan</Text></h1>
 
     </div>
   )
