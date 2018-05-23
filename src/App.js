@@ -23,3 +23,39 @@ function App () {
 }
 
 export default App;
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// class Text extends Component {
+//   render() {
+//     return (
+//       <span style ={{color: this.props.color}}>{this.props.value}</span>
+//     )
+//   };
+// }
+
+
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+        
+//         <header className="App-header">
+//           <img src={logo} className="App-logo" alt="logo" />
+//           <h1 className="App-title">Welcome to React</h1>
+//         </header>
+
+//         <p className="App-intro">
+//           To get started, edit <code>src/App.js</code> and save to reload.
+//         </p>
+
+//         <h1>Hi, I'm <Text color="blue" value="Ryan" /></h1>
+        
+//       </div>
+//     );
+//   }
+// }
